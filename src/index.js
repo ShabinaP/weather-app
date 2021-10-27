@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-// eslint-disable-next-line import/no-useless-path-segments
-import App from "../src/components/App";
+// eslint-disable-next-line prettier/prettier
+import App from './components/App';
 import "./styles/index.css";
 
 ReactDOM.render(
