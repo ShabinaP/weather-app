@@ -21,9 +21,10 @@ exports[`renders correctly 1`] = `
           value=""
         />
         <button
+          class="searchButton"
           type="submit"
         >
-          Search
+          SEARCH
         </button>
       </form>
     </div>

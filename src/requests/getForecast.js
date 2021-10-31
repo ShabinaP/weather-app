@@ -15,10 +15,12 @@ const getForecast = (
   axios
     .get(endpoint)
     .then((response) => {
+      setErrorMessage("");
       setSelectedDate(response.data.forecasts[0].date);
       setForecasts(response.data.forecasts);
       setLocation(response.data.location);
     })
+
     .catch((error) => {
       const { status } = error.response;
       if (status === 404) {
@@ -33,5 +35,4 @@ const getForecast = (
       }
     });
 };
-
 export default getForecast;

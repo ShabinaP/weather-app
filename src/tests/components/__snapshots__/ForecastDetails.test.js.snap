@@ -14,12 +14,12 @@ exports[`ForecastDetails renders correctly 1`] = `
     <div
       class="forecast-details__maxTemperature"
     >
-      Max temp:14°C
+      Max temp: 14°C
     </div>
     <div
       class="forecast-details__minTemperature"
     >
-      Min temp:3°C
+      Min temp: 3°C
     </div>
     <div
       class="forecast-details__humidity"

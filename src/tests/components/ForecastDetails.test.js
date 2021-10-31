@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import ForecastDetails from "../../components/ForecastDetails";
+import ForecastDetails from "../../Components/ForecastDetails";
 
 describe("ForecastDetails", () => {
   const validProps = {
@@ -24,10 +24,10 @@ describe("ForecastDetails", () => {
     const { getByText } = render(<ForecastDetails forecast={validProps} />);
 
     expect(getByText("Mon 30th Apr")).toHaveClass("forecast-details__date");
-    expect(getByText("Min temp:3°C")).toHaveClass(
+    expect(getByText("Min temp: 3°C")).toHaveClass(
       "forecast-details__minTemperature"
     );
-    expect(getByText("Max temp:14°C")).toHaveClass(
+    expect(getByText("Max temp: 14°C")).toHaveClass(
       "forecast-details__maxTemperature"
     );
     expect(getByText("Humidity: 12%")).toHaveClass(

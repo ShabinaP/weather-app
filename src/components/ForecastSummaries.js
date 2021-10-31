@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ForecastSummary from "./ForecastSummary";
-import "../styles/ForecastSummaries.css";
+import "../styles/forecastSummaries.css";
 
 const ForecastSummaries = ({ forecasts, onForecastSelect }) => (
   <div className="forecast-summaries">
