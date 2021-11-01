@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import getForecast from "../requests/getForecast";
-import LocationDetails from "./LocationDetails";
-import SearchForm from "./SearchForm";
-import ForecastSummaries from "./ForecastSummaries";
-import ForecastDetails from "./ForecastDetails";
-import "../styles/App.css";
-import "../styles/index.css";
+import getForecast from "./requests/getForecast";
+import LocationDetails from "./Components/LocationDetails";
+import SearchForm from "./Components/SearchForm";
+import ForecastSummaries from "./Components/ForecastSummaries";
+import ForecastDetails from "./Components/ForecastDetails";
+import "./styles/App.css";
+import "./styles/index.css";
 
 const App = () => {
   const [forecasts, setForecasts] = useState([]);
