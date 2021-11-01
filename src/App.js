@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import getForecast from "./requests/getForecast";
-import LocationDetails from "./Components/LocationDetails";
-import SearchForm from "./Components/SearchForm";
-import ForecastSummaries from "./Components/ForecastSummaries";
-import ForecastDetails from "./Components/ForecastDetails";
+import LocationDetails from "./components/LocationDetails";
+import SearchForm from "./components/SearchForm";
+import ForecastSummaries from "./components/ForecastSummaries";
+import ForecastDetails from "./components/ForecastDetails";
 import "./styles/App.css";
 import "./styles/index.css";
 
